@@ -1,0 +1,13 @@
+{
+    "model" : "yolov8n.pt",
+    "confidence_threshold": 0.7,
+    "stream": true,
+    "max_token": 100,
+    "temperature": 0.1,
+    "model_path": "llava-hf/llava-v1.6-mistral-7b-hf",
+    "memory_size": 5,
+    "night_start": 22,
+    "night_end": 6,
+    "person_threshold": 3,
+    "csv_filename": "csv_filename.csv"
+}
